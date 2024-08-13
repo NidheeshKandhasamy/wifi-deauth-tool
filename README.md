@@ -30,3 +30,31 @@ This Bash script provides a set of functionalities for managing Wi-Fi networks, 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/NidheeshKandhasamy/wifi-deauth-tool.git
+
+## Script Overview
+display_menu()
+Displays the main menu with options for the user.
+
+scan_wifi()
+Scans for available Wi-Fi networks using airodump-ng.
+
+select_wifi()
+Allows the user to select a specific Wi-Fi network for monitoring.
+
+deauth_client()
+Sends deauthentication packets to a specified client.
+
+deauth_all_clients()
+Sends deauthentication packets to all clients on a specified network.
+
+check_wifi()
+Displays the status of the Wi-Fi adapter.
+
+change_interface()
+Allows changing the Wi-Fi adapter interface name.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+Specify the license under which the project is distributed.
